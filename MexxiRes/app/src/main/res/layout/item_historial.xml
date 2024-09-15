@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Hora del pedido -->
+    <TextView
+        android:id="@+id/horaCompraTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora del pedido"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <!-- Layout para contener los ítems y precios dinámicamente -->
+    <LinearLayout
+        android:id="@+id/itemsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="8dp" />
+
+    <!-- Total de ítems -->
+    <TextView
+        android:id="@+id/totalItemsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total de ítems"
+        android:textSize="14sp" />
+
+    <!-- Total del precio -->
+    <TextView
+        android:id="@+id/totalPrecioTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total del precio"
+        android:textSize="14sp" />
+
+    <!-- Botón para eliminar -->
+    <Button
+        android:id="@+id/eliminarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:layout_gravity="end"
+        android:paddingTop="8dp" />
+
+</LinearLayout>

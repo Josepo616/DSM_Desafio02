@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Desafio2</string>
+
+    <!-- Textos generales -->
+    <string name="welcome_header">Bienvenido al menú!</string>
+    <string name="comidas_header">Comidas</string>
+    <string name="bebidas_header">Bebidas</string>
+
+    <!-- Nombres y precios de comidas -->
+    <string name="comida1_name">Torta Mexicana</string>
+    <string name="comida1_price">$3.00</string>
+    <string name="comida2_name">Tacos de birria</string>
+    <string name="comida2_price">$5.00</string>
+    <string name="comida3_name">Sopa de tortilla</string>
+    <string name="comida3_price">$4.00</string>
+    <string name="comida4_name">Burritos</string>
+    <string name="comida4_price">$6.00</string>
+    <string name="comida5_name">Quesadiilas</string>
+    <string name="comida5_price">$4.00</string>
+    <string name="comida6_name">Pozole</string>
+    <string name="comida6_price">$5.00</string>
+    <string name="comida7_name">Nachos</string>
+    <string name="comida7_price">$4.00</string>
+
+
+    <!-- Nombres y precios de bebidas -->
+    <string name="bebida1_name">Horchata</string>
+    <string name="bebida1_price">$1.25</string>
+    <string name="bebida2_name">Jamaica</string>
+    <string name="bebida2_price">$1.25</string>
+    <string name="bebida3_name">Limonada</string>
+    <string name="bebida3_price">$2.00</string>
+</resources>

@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Encabezado -->
+            <TextView
+                android:id="@+id/welcomeHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_header"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+
+            <!-- Sub Encabezado Comidas -->
+            <TextView
+                android:id="@+id/comidasHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/comidas_header"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="24dp" />
+
+            <!-- Contenedor de Comidas -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/comidasContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Sub Encabezado Bebidas -->
+            <TextView
+                android:id="@+id/bebidasHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bebidas_header"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="24dp" />
+
+            <!-- Contenedor de Bebidas -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/bebidasContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Contenedor para los botones -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_horizontal">
+
+                <!-- Botón Ver Carrito -->
+                <Button
+                    android:id="@+id/verCarritoButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:text="Ver Carrito" />
+
+                <!-- Botón Ver Historial -->
+                <Button
+                    android:id="@+id/verHistorialButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ver Historial" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
