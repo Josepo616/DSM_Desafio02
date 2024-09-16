@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">Desafio2</string>
+    <string name="app_name">MexxRess</string>
+
+    <!-- Texto login -->
+    <string name="welcome_login">Bienvenido a MexxRess!</string>
 
     <!-- Textos generales -->
     <string name="welcome_header">Bienvenido al menú!</string>
