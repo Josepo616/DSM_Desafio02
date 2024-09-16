@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="@color/background"
     android:layout_height="match_parent"
     android:padding="8dp">
 
     <!-- ListView para mostrar los ítems del carrito -->
     <ListView
+        android:background="@color/background"
         android:id="@+id/carritoListView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -17,6 +19,7 @@
 
     <!-- Layout para los totales, alineado al fondo del contenedor -->
     <LinearLayout
+        android:background="@color/background"
         android:id="@+id/totalesLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="@android:color/white"
+            android:textColor="@color/black"
             android:text="Total Items: 0" />
 
         <TextView
@@ -37,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="@android:color/white"
+            android:textColor="@color/black"
             android:text="Total Price: 0.00"
             android:layout_marginTop="8dp" />
     </LinearLayout>
@@ -45,6 +48,8 @@
     <!-- Botón para realizar la compra, alineado a la izquierda -->
     <Button
         android:id="@+id/realizarCompraButton"
+        android:backgroundTint="@color/botons"
+        android:textColor="@color/background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Realizar Compra"
@@ -56,6 +61,8 @@
     <!-- Botón para limpiar el carrito, alineado a la derecha -->
     <Button
         android:id="@+id/limpiarCarritoButton"
+        android:backgroundTint="@color/botons"
+        android:textColor="@color/background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Limpiar Carrito"
