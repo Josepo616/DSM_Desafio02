@@ -1,19 +1,23 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="@color/background"
     android:layout_height="match_parent">
 
     <ScrollView
+        android:background="@color/background"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp">
 
         <LinearLayout
+            android:background="@color/background"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <!-- Encabezado -->
             <TextView
+                android:textColor="@color/black"
                 android:id="@+id/welcomeHeader"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -24,6 +28,7 @@
 
             <!-- Sub Encabezado Comidas -->
             <TextView
+                android:textColor="@color/black"
                 android:id="@+id/comidasHeader"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -34,6 +39,7 @@
 
             <!-- Contenedor de Comidas -->
             <androidx.recyclerview.widget.RecyclerView
+                android:textColor="@color/black"
                 android:id="@+id/comidasContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -42,6 +48,7 @@
 
             <!-- Sub Encabezado Bebidas -->
             <TextView
+                android:textColor="@color/black"
                 android:id="@+id/bebidasHeader"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -52,6 +59,7 @@
 
             <!-- Contenedor de Bebidas -->
             <androidx.recyclerview.widget.RecyclerView
+                android:textColor="@color/black"
                 android:id="@+id/bebidasContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -70,6 +78,8 @@
                 <!-- Botón Ver Carrito -->
                 <Button
                     android:id="@+id/verCarritoButton"
+                    android:backgroundTint="@color/botons"
+                    android:textColor="@color/background"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -78,6 +88,8 @@
                 <!-- Botón Ver Historial -->
                 <Button
                     android:id="@+id/verHistorialButton"
+                    android:backgroundTint="@color/botons"
+                    android:textColor="@color/background"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Ver Historial" />
