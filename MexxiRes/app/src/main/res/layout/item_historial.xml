@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:textColor="@color/black"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="8dp">
@@ -8,6 +9,7 @@
     <!-- Hora del pedido -->
     <TextView
         android:id="@+id/horaCompraTextView"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hora del pedido"
@@ -17,6 +19,7 @@
     <!-- Layout para contener los ítems y precios dinámicamente -->
     <LinearLayout
         android:id="@+id/itemsLayout"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -25,6 +28,7 @@
     <!-- Total de ítems -->
     <TextView
         android:id="@+id/totalItemsTextView"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Total de ítems"
@@ -33,6 +37,7 @@
     <!-- Total del precio -->
     <TextView
         android:id="@+id/totalPrecioTextView"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Total del precio"
@@ -41,6 +46,8 @@
     <!-- Botón para eliminar -->
     <Button
         android:id="@+id/eliminarButton"
+        android:backgroundTint="@color/botons"
+        android:textColor="@color/background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Eliminar"
