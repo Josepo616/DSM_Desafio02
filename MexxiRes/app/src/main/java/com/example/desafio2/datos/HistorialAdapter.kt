@@ -36,12 +36,14 @@ class HistorialAdapter(private val historialList: List<Historial>, private val c
             val itemTextView = TextView(holder.itemView.context)
             itemTextView.text = item.nombre
             itemTextView.textSize = 14f
+            itemTextView.setTextColor(ContextCompat.getColor(holder.itemView.context, R.color.black))
             holder.itemsLayout.addView(itemTextView)
 
             // Crear TextView para el precio del ítem
             val precioTextView = TextView(holder.itemView.context)
             precioTextView.text = "$${formatearPrecio(item.precio)}" // Formatear el precio aquí
             precioTextView.textSize = 14f
+            precioTextView.setTextColor(ContextCompat.getColor(holder.itemView.context, R.color.black))
             holder.itemsLayout.addView(precioTextView)
         }
 
