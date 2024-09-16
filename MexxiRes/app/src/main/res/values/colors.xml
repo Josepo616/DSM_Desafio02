@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="background">#E5E5E5</color>
+    <color name="hint">#7C8B7A</color>
+    <color name="cards">#00C853</color>
+    <color name="botons">#E94444</color>
 </resources>
